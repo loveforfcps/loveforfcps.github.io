@@ -1,4 +1,4 @@
-David Watkins For State Representative
+Daryl Love for School Board
 =============================
 
 Code for Campaign Website
