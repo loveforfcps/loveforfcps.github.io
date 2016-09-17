@@ -935,8 +935,8 @@ footer {
       background-color: #df2f3f; }
 
 .hero-image.bio-image {
-  background-image: -webkit-linear-gradient(rgba(20, 39, 81, 0.3), rgba(20, 39, 81, 0.3)), url(/assets/img/speakingbw.jpg);
-  background-image: linear-gradient(rgba(20, 39, 81, 0.3), rgba(20, 39, 81, 0.3)), url(/assets/img/speakingbw.jpg);
+  background-image: -webkit-linear-gradient(rgba(20, 39, 81, 0.3), rgba(20, 39, 81, 0.3)), url(/assets/img/daryllove.jpg);
+  background-image: linear-gradient(rgba(20, 39, 81, 0.3), rgba(20, 39, 81, 0.3)), url(/assets/img/daryllove.jpg);
   background-position: 0 30%; }
 
 #bio-text {
@@ -1045,9 +1045,9 @@ footer {
       font-size: 50px; } }
 
 .hero-image.home-image {
-  background-image: -webkit-linear-gradient(rgba(20, 39, 81, 0.3), rgba(20, 39, 81, 0.3)), url(/assets/img/daryllove.jpg);
-  background-image: linear-gradient(rgba(20, 39, 81, 0.3), rgba(20, 39, 81, 0.3)), url(/assets/img/daryllove.jpg);
-  background-position: 0 34%; }
+  background-image: -webkit-linear-gradient(rgba(20, 39, 81, 0.2), rgba(20, 39, 81, 0.2)), url(/assets/img/standing.jpg);
+  background-image: linear-gradient(rgba(20, 39, 81, 0.2), rgba(20, 39, 81, 0.2)), url(/assets/img/standing.jpg);
+  background-position: 0 25%; }
   .hero-image.home-image .hero-text.home-hero-text {
     font-size: 4em; }
     @media screen and (max-width: 600px) {
