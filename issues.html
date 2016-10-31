@@ -1,0 +1,158 @@
+---
+layout: default
+title: Issues - Daryl Love for School Board
+---
+
+<div class="hero-image issues-image">
+  <div class="hero-text">Daryl's vision for Fayette Schools</div>
+</div>
+<div class="issues-intro">
+  <p>Daryl Love is committed to helping students learn and become the best they can be. He’s passionate about education and has a proven record of listening, collaborating and leading.</p>
+  <p>Learn more about where he stands on education within Fayette County.</p>
+</div>
+<div class="issues-container">
+  <div class="modal block">
+    <label for="modal-1">
+      <div class="modal-trigger">
+        <p class="block-title">District-Wide Student Achievement</p>
+        <!-- <p class="block-text">Daryl is dedicated to creating and supporting policies and practices that promote student responsibility which will increase the student achievement of all kids in Fayette County. </p> -->
+        <p class="block-more">Read More</p>
+      </div>
+    </label>
+    <input type="checkbox" id="modal-1" class="modal-state" />
+    <div class="modal-fade-screen">
+      <div class="modal-inner">
+        <div class="modal-close" for="modal-1">X</div>
+        <div class="modal-content">
+          <p>Daryl is dedicated to creating and supporting policies and practices that promote student responsibility which will increase the student achievement of all kids in Fayette County.</p>
+          <p>He intends to foster greater collaboration within the district across all levels - board, central office and schools and expand our city/community/business partnerships to support the social and educational needs of our students.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal block">
+    <label for="modal-2">
+      <div class="modal-trigger">
+        <p class="block-title">School Based Decision Making Councils (SBDM)</p>
+        <!-- <p class="block-text">Daryl is dedicated to creating and supporting policies and practices that promote student responsibility which will increase the student achievement of all kids in Fayette County. </p> -->
+        <p class="block-more">Read More</p>
+      </div>
+    </label>
+    <input type="checkbox" id="modal-2" class="modal-state" />
+    <div class="modal-fade-screen">
+      <div class="modal-inner">
+        <div class="modal-close" for="modal-2">X</div>
+        <div class="modal-content">
+          <p>As a board member, Daryl supports training for SBDMs that's aligned with the district mission, vision and strategic plan. He believes that every school should be able to define and drive their culture, but Fayette County needs to have a common curriculum. He also supports and believes in collaboration, alignment and just-in-time professional development.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal block">
+    <label for="modal-3">
+      <div class="modal-trigger">
+        <p class="block-title">Early Childhood Education</p>
+        <!-- <p class="block-text">Daryl is dedicated to creating and supporting policies and practices that promote student responsibility which will increase the student achievement of all kids in Fayette County. </p> -->
+        <p class="block-more">Read More</p>
+      </div>
+    </label>
+    <input type="checkbox" id="modal-3" class="modal-state" />
+    <div class="modal-fade-screen">
+      <div class="modal-inner">
+        <div class="modal-close" for="modal-3">X</div>
+        <div class="modal-content">
+          <p>Daryl believes that we all need to lobby to Frankfort for more dollars as research has shown that early childhood is a direct strategy the helps to close the achievement gap. In addition, we need to secure grants and convene our community partners to explore a community-based solution to address this issue.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal block">
+    <label for="modal-4">
+      <div class="modal-trigger">
+        <p class="block-title">Fayette County Blueprint for Success</p>
+        <!-- <p class="block-text">Daryl is dedicated to creating and supporting policies and practices that promote student responsibility which will increase the student achievement of all kids in Fayette County. </p> -->
+        <p class="block-more">Read More</p>
+      </div>
+    </label>
+    <input type="checkbox" id="modal-4" class="modal-state" />
+    <div class="modal-fade-screen">
+      <div class="modal-inner">
+        <div class="modal-close" for="modal-4">X</div>
+        <div class="modal-content">
+          <p>As stated in the Blueprint for Success “When a consistent, high-quality curriculum, outstanding instruction, and high-quality behavioral and academic interventions are in place, students across a district – regardless of their teacher or school – have the opportunity to learn the same standards-based content and skills by the end of the school year or course.”  The Blueprint for Success will help the Fayette County Board of Education meet their mission of ensuring that FCPS students graduate career and college ready and Daryl promises to ensure the full implementation of the strategic plan.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal block">
+    <label for="modal-5">
+      <div class="modal-trigger">
+        <p class="block-title">Why Daryl Serves</p>
+        <!-- <p class="block-text">Daryl is dedicated to creating and supporting policies and practices that promote student responsibility which will increase the student achievement of all kids in Fayette County. </p> -->
+        <p class="block-more">Read More</p>
+      </div>
+    </label>
+    <input type="checkbox" id="modal-5" class="modal-state" />
+    <div class="modal-fade-screen">
+      <div class="modal-inner">
+        <div class="modal-close" for="modal-5">X</div>
+        <div class="modal-content">
+          <p>Daryl is committed to helping all students learn and achieve at their highest potential. He wants to see our community thrive and grow, and he knows that starts with having a world-class school system that produces students who are career and college ready. Fayette County Public Schools has tremendous momentum right now. The superintendent Daryl and his colleagues hired has taken direction from the board and outlined a specific blueprint of strategies for implementation that will be launched this school year and displays the fresh approach that Daryl has advocated for over the last 6 years.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% include cta.html %}
+
+<script type="text/javascript">
+  $(function() {
+    $("#modal-1").on("change", function(){
+      if ($(this).is(":checked")){
+        $("body").addClass("modal-open");
+      } else {
+        $("body").removeClass("modal-open");
+      }
+    });
+
+    $("#modal-2").on("change", function(){
+      if ($(this).is(":checked")){
+        $("body").addClass("modal-open");
+      } else {
+        $("body").removeClass("modal-open");
+      }
+    });
+
+    $("#modal-3").on("change", function(){
+      if ($(this).is(":checked")){
+        $("body").addClass("modal-open");
+      } else {
+        $("body").removeClass("modal-open");
+      }
+    });
+
+    $("#modal-4").on("change", function(){
+      if ($(this).is(":checked")){
+        $("body").addClass("modal-open");
+      } else {
+        $("body").removeClass("modal-open");
+      }
+    });
+
+    $("#modal-5").on("change", function(){
+      if ($(this).is(":checked")){
+        $("body").addClass("modal-open");
+      } else {
+        $("body").removeClass("modal-open");
+      }
+    });
+
+    $(".modal-fade-screen, .modal-close").on("click", function(){
+      $(".modal-state:checked").prop("checked", false).change();
+    });
+
+    $(".modal-inner").on("click", function(e){
+      e.stopPropagation();
+    });
+  });
+</script>

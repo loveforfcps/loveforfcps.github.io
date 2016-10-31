@@ -1,0 +1,121 @@
+.hero-image.issues-image
+  +background-image(linear-gradient(rgba($secondary-blue, 0.3), rgba($secondary-blue, 0.3)), url(/assets/img/book.jpg))
+  background-position: 0 40%
+
+.issues-intro
+  font-size: 20px
+  font-weight: 700
+  +outer-container(90%)
+
+
+.issues-container
+  +outer-container
+  +media($tablet)
+    +outer-container(90%)
+  +media($mobile)
+    +outer-container(90%)
+  padding-bottom: 20px
+
+.modal
+  $medium-screen: 30em !default
+  $large-screen: 50em !default
+
+  label
+    cursor: pointer
+    font-weight: normal
+    margin-bottom: 0
+
+  .modal-state
+    display: none
+
+  .modal-fade-screen
+    //overlay
+    +position(fixed, 0 0 0 0)
+    background-color: rgba(0, 0, 0, 0.85)
+    opacity: 0
+    transition: opacity 0.25s ease
+    visibility: hidden
+    z-index: 99999
+
+    +media($large-screen)
+      padding-top: 10em
+
+  .modal-bg
+    cursor: pointer
+
+  .modal-inner
+    background-color: #fff
+    margin: auto
+    max-height: 95%
+    overflow: auto
+    padding: 5px 10px
+    position: relative
+    top: 0.5em
+    transition: opacity 0.25s ease
+    width: 95%
+    color: $secondary-blue
+    font-size: 18px
+    font-weight: 600
+
+    .modal-close
+      font-size: 14px
+      padding-bottom: 5px
+
+
+      &:hover
+        cursor: pointer
+        text-decoration: underline
+
+    +media($medium-screen)
+      max-height: 70%
+      width: 60%
+
+    +media($large-screen)
+      width: 50%
+
+  .modal-state:checked + .modal-fade-screen
+    opacity: 1
+    visibility: visible
+
+.modal-open
+  overflow: hidden
+
+.modal-closed
+  overflow: auto
+
+
+.block
+  +span-columns(3)
+  +omega(4n)
+
+  +media($tablet)
+    +span-columns(4)
+    +omega(2n)
+  +media($mobile)
+    +span-columns(2)
+    +omega(2n)
+  //height: 150px
+  margin-top: 20px
+  padding: 10px
+  background-color: darken(white, 10%)
+  color: black
+  transition: background-color .15s, color .15s
+
+  &:hover, &:focus
+    box-shadow: 1px 2px 2px darken($primary-blue, 20%)
+    color: white
+    background-color: $secondary-blue
+
+  .block-title
+    font-size: 18px
+    font-weight: 700
+    margin-bottom: 0
+
+  .block-text
+    font-size: 16px
+
+  .block-more
+    font-size: 14px
+    text-decoration: underline
+    &:hover
+      text-decoration: none

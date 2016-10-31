@@ -1015,6 +1015,172 @@ footer {
 .issue-card {
   padding-bottom: 5px; }
 
+.hero-image.issues-image {
+  background-image: -webkit-linear-gradient(rgba(20, 39, 81, 0.3), rgba(20, 39, 81, 0.3)), url(/assets/img/book.jpg);
+  background-image: linear-gradient(rgba(20, 39, 81, 0.3), rgba(20, 39, 81, 0.3)), url(/assets/img/book.jpg);
+  background-position: 0 40%; }
+
+.issues-intro {
+  font-size: 20px;
+  font-weight: 700;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
+  .issues-intro::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.issues-container {
+  max-width: 85.625em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px; }
+  .issues-container::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media screen and (min-width: 601px) and (max-width: 768px) {
+    .issues-container {
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto; }
+      .issues-container::after {
+        clear: both;
+        content: "";
+        display: table; } }
+  @media screen and (max-width: 600px) {
+    .issues-container {
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto; }
+      .issues-container::after {
+        clear: both;
+        content: "";
+        display: table; } }
+
+.modal label {
+  cursor: pointer;
+  font-weight: normal;
+  margin-bottom: 0; }
+
+.modal .modal-state {
+  display: none; }
+
+.modal .modal-fade-screen {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  opacity: 0;
+  -webkit-transition: opacity 0.25s ease;
+          transition: opacity 0.25s ease;
+  visibility: hidden;
+  z-index: 99999; }
+  @media screen and (min-width: 50em) {
+    .modal .modal-fade-screen {
+      padding-top: 10em; } }
+
+.modal .modal-bg {
+  cursor: pointer; }
+
+.modal .modal-inner {
+  background-color: #fff;
+  margin: auto;
+  max-height: 95%;
+  overflow: auto;
+  padding: 5px 10px;
+  position: relative;
+  top: 0.5em;
+  -webkit-transition: opacity 0.25s ease;
+          transition: opacity 0.25s ease;
+  width: 95%;
+  color: #142751;
+  font-size: 18px;
+  font-weight: 600; }
+  .modal .modal-inner .modal-close {
+    font-size: 14px;
+    padding-bottom: 5px; }
+    .modal .modal-inner .modal-close:hover {
+      cursor: pointer;
+      text-decoration: underline; }
+  @media screen and (min-width: 30em) {
+    .modal .modal-inner {
+      max-height: 70%;
+      width: 60%; } }
+  @media screen and (min-width: 50em) {
+    .modal .modal-inner {
+      width: 50%; } }
+
+.modal .modal-state:checked + .modal-fade-screen {
+  opacity: 1;
+  visibility: visible; }
+
+.modal-open {
+  overflow: hidden; }
+
+.modal-closed {
+  overflow: auto; }
+
+.block {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e6e6e6;
+  color: black;
+  -webkit-transition: background-color 0.15s, color 0.15s;
+          transition: background-color 0.15s, color 0.15s; }
+  .block:last-child {
+    margin-right: 0; }
+  .block:nth-child(4n) {
+    margin-right: 0; }
+  .block:nth-child(4n+1) {
+    clear: left; }
+  @media screen and (min-width: 601px) and (max-width: 768px) {
+    .block {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 48.21067%; }
+      .block:last-child {
+        margin-right: 0; }
+      .block:nth-child(2n) {
+        margin-right: 0; }
+      .block:nth-child(2n+1) {
+        clear: left; } }
+  @media screen and (max-width: 600px) {
+    .block {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 46.28851%; }
+      .block:last-child {
+        margin-right: 0; }
+      .block:nth-child(2n) {
+        margin-right: 0; }
+      .block:nth-child(2n+1) {
+        clear: left; } }
+  .block:hover, .block:focus {
+    box-shadow: 1px 2px 2px #174157;
+    color: white;
+    background-color: #142751; }
+  .block .block-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0; }
+  .block .block-text {
+    font-size: 16px; }
+  .block .block-more {
+    font-size: 14px;
+    text-decoration: underline; }
+    .block .block-more:hover {
+      text-decoration: none; }
+
 .hero-image {
   background-repeat: no-repeat;
   background-size: cover;
